@@ -1,0 +1,13 @@
+// Откуда брать инструменты для сборки Fabric-мода
+pluginManagement {
+    repositories {
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'newyear-mod'
