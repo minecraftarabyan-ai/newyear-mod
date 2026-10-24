@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "newyear",
+  "version": "${version}",
+  "name": "New Year",
+  "description": "Новогодняя атмосфера: светящийся снег, туман и Санта в ночном небе.",
+  "authors": ["minecraftarabyan-ai"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.newyear.NewYear"],
+    "client": ["com.newyear.NewYearClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
